@@ -99,6 +99,7 @@ li {
 }
 
 .items ul {
+  padding-left: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -152,5 +153,7 @@ li {
   cursor: pointer;
 }
 /* Company Contact Information */
-
+.companyInfo h2 {
+  margin-top: 24px;
+}
 /* Footer */
