@@ -38,6 +38,10 @@ body {
 .navigation a:active {
   opacity: 0.9;
 }
+
+.navigation ul {
+  padding-right: 8px;
+}
 .navigation li {
   list-style: none;
   text-decoration: underline;
