@@ -152,8 +152,18 @@ li {
   border: 1px solid rgb(202, 79, 79);
   cursor: pointer;
 }
+
 /* Company Contact Information */
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+}
 .companyInfo h2 {
   margin-top: 24px;
 }
+
 /* Footer */
+.footer {
+  text-align: left;
+  margin-left: 20px;
+}
