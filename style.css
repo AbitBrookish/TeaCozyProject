@@ -65,6 +65,17 @@ body {
   align-items: center;
 }
 
+.mission {
+  background-color: black;
+  flex-basis: 1200px;
+}
+.mission h2 {
+  margin-top: 12px;
+}
+.mission h4 {
+  margin-bottom: 12px;
+}
+
 /* Tea of the Month */
 
 /* Store Locations */
