@@ -28,6 +28,19 @@ body {
   align-items: center;
   border-bottom: 1px solid seashell;
 }
+.navigation a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.5;
+}
+.navigation a:hover,
+.navigation a:active {
+  opacity: 0.9;
+}
+.navigation li {
+  list-style: none;
+  text-decoration: underline;
+}
 
 #logo {
   margin: 10px;
@@ -37,4 +50,5 @@ body {
 .navItems {
   display: flex;
   justify-content: space-around;
+  gap: 16px;
 }
