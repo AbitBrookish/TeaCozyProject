@@ -30,6 +30,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: black;
   border-bottom: 1px solid seashell;
 }
 .navigation a {
@@ -43,7 +44,7 @@ li {
 }
 
 .navigation ul {
-  padding-right: 8px;
+  padding-right: 16px;
 }
 .navigation li {
   text-decoration: underline;
@@ -58,6 +59,12 @@ li {
   display: flex;
   justify-content: space-around;
   gap: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Banner and Mission Statement */
