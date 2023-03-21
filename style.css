@@ -18,7 +18,10 @@ body {
   font-size: 22px;
   opacity: 0.9;
   text-align: center;
+}
 
+li {
+  list-style: none;
 }
 
 /* Header navigation */
@@ -43,7 +46,6 @@ body {
   padding-right: 8px;
 }
 .navigation li {
-  list-style: none;
   text-decoration: underline;
 }
 
@@ -111,11 +113,41 @@ body {
   margin: 0;
 }
 .items li {
-  list-style: none;
   width: 300px;
 }
 
 /* Store Locations */
+.locations {
+  margin: 0 auto;
+  width: 1200px;
+  height: 530px;
+  background-image: url("./images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.locations h2 {
+  margin-bottom: 0;
+}
+
+.storeAddress ul {
+  padding-left: 0;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.storeAddress li {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+}
+
+
 
 /* Company Contact Information */
 
