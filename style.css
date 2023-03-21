@@ -21,6 +21,7 @@ body {
 
 }
 
+/* Header navigation */
 .navigation {
   height: 69px;
   display: flex;
@@ -52,3 +53,13 @@ body {
   justify-content: space-around;
   gap: 16px;
 }
+
+/* Banner and Mission Statement */
+
+/* Tea of the Month */
+
+/* Store Locations */
+
+/* Company Contact Information */
+
+/* Footer */
