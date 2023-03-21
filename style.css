@@ -146,9 +146,11 @@ li {
   flex-direction: column;
   opacity: 1;
 }
-
-
-
+.storeAddress li:hover,
+.storeAddress li:active {
+  border: 1px solid rgb(202, 79, 79);
+  cursor: pointer;
+}
 /* Company Contact Information */
 
 /* Footer */
