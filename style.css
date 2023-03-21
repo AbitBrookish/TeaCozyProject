@@ -77,6 +77,39 @@ body {
 }
 
 /* Tea of the Month */
+#teaList {
+  width: 1000px;
+  height: 700px;
+  margin: 60px auto;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.teasOTM h2 {
+  margin-bottom: 0;
+}
+.teasOTM h4 {
+  margin: 16px auto;
+}
+
+.items ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.items li>img {
+  margin-bottom: 10px;
+  height: 200px;
+}
+.items li>h4 {
+  margin: 0;
+}
+.items li {
+  list-style: none;
+  width: 300px;
+}
 
 /* Store Locations */
 
